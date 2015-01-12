@@ -32,6 +32,6 @@ On newer Mac's (OS 10.9 or newer), just try to run `git` from the command line. 
 And you're done!
 
 **Optional:** Down the road, you might find yourself annoyed entering your github username and password in the Terminal when you push code (if you don't know what I'm talking about, you will soon!) If so, there are two solutions, I'll just link to the excellent github tutorials instead of listing the steps:
-	1. [Store your username and password in your Mac's keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
-	or
-	2. [Access github via ssh instead of https, and use your ssh key instead of a password](https://help.github.com/articles/generating-ssh-keys/)
+1. [Store your username and password in your Mac's keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
+or
+2. [Access github via ssh instead of https, and use your ssh key instead of a password](https://help.github.com/articles/generating-ssh-keys/)
