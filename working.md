@@ -95,7 +95,7 @@ This will pull changes down from the remote github repo that other users have ma
 ```bash
 git push
 ```
-and your changes will be saved to github!
+and your changes will be saved to github! Hooray!
 
 7. It's good practice to make lots of frequent commits, with descriptive messages, for a number of reasons:
 - Git makes it easy to rollback a project to the way it looked at the time of a certain commit. If you make lots of little commits, you can get make it easy to rollback a mistake or edit, without also erasing work you'd like to keep.
