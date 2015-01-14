@@ -18,7 +18,7 @@ Where `the_url` is replaced with the URL you just copied.
 
 5. In the Terminal, to move into the folder you just cloned (which is automatically named "git-tutorial"), run ```cd git-tutorial```
 
-##Do some work
+##Do some work!
 
 1. Create, delete, or edit some files or folders. If you find typos etc. in these tutorials, feel free to edit them, but I also made a folder called [workspace](workspace) where you can create and edit files. Maybe make CSS stylesheet, or write a list of instructions on how to make the best turkey sandwich ever. Whatever you want.
 
@@ -77,4 +77,43 @@ git commit -m "Here is where you put your commit message"
 
 Now all those changes you made are stored in a single commit.
 
-Some people 
+Sometimes, you might do a lot of work for one commit, that's difficult to describe in a brief commit message. If so, you can make a longer, more organized commit message by just running:
+```bash
+git commit
+```
+(Note there's no `-m` flag) This will open up your text editor (check out the [setup](setup.md) tutorial for instructions on using Sublime as git's default editor), where you can write a longer commit message. Save and close the file, and your message will be stored. *Note: Long commit messages can be written using "github flavored markdown", which is a way you can easily do things like make lists, bold or italicize, make headers, write code in those nifty little grey boxes that are all over this tutorial, etc. README files and files like this one are written in markdown, by saving a text file with the ".md" extension. You can also use [many html tags](https://github.com/github/markup/tree/master#html-sanitization) in a .md document. You can read more about [github flavored markdown here](https://help.github.com/articles/github-flavored-markdown/)*
+
+[Some people](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) think you should always write long, detailed commit messages, although often they're not neccessary, I think. Long commits are great when you did "lots of little things", like [this example](https://github.com/UrbanInstitute/git-tutorial/commit/7e1f885187e93627fa0f763adb75dd7bc04fb43a), or a [more realistic example](https://github.com/UI-Research/UI-Graphics/commit/860f33932b0ff7225e7f7900bf3c6db7a70e6b0f) from some work I did today on another project.
+
+5. Ok, you've commited your changes (you can double check with another `git status`), now you need to push them to github. First, run
+```bash
+git pull
+```
+This will pull changes down from the remote github repo that other users have made since the last time you pushed or pulled. It's worth noting that almost everything you've done so far in this tutorial (`add`, `status`, `commit`) can be done without an internet connection. It's only when you push or pull that you're connecting to the remote github, through the internet. Sometimes, the changes you are trying to pull down might contradict the changes you yourself have made, but not yet pushed. If that's the case, check out the [resolving a merge conflict](#resolving-a-merge-conflict) section below.
+
+6. If the pull went OK, you can now run
+```bash
+git push
+```
+and your changes will be saved to github!
+
+7. It's good practice to make lots of frequent commits, with descriptive messages, for a number of reasons:
+- Git makes it easy to rollback a project to the way it looked at the time of a certain commit. If you make lots of little commits, you can get make it easy to rollback a mistake or edit, without also erasing work you'd like to keep.
+- Looking at a well kept commit history, it's easy to see who worked on a project, when they worked, what they did, and why they did it. If something's broken, or you have a question, you can go to the commit history to help diagnose the problem, or figure out who to ask for help.
+- The more often you push changes, the less likely it is you'll encounter a merge conflict.
+
+Note:
+Sometimes, you might want to pull changes down from github, and totally overwrite whatever local work you've done that is different from the remote version on github. <strong color = "red">CAUTION:</strong> running this command is sort of the equivilant of closing a file and selecting "Don't Save," so make sure you really want to do it. Without adding, commiting, pushing, or pulling, run
+```bash
+git reset --hard
+```
+And then
+```bash
+git pull
+```
+and your local repo will sync up with the remote github repo, overwriting all your local changes.
+
+
+##Working on branches
+
+
