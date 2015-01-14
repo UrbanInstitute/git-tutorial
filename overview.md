@@ -1,50 +1,158 @@
-#An Overview
+#Anway Overviewway
 
-##What is git?
+##Atwhay isway itgay?
 
-Git is a piece of software that helps organize and track changes to files over time (usually text based files, like code), and helps multiple users work on the same projects, without stepping on each others' toes. Git is run from the command line (by default the [Terminal](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29) on Macs and the [Command Prompt](http://en.wikipedia.org/wiki/Cmd.exe) on PCs), usually by running `git`, followed by another key word, then often followed by various options.
+Itgay isway away iecepay ofway oftwaresay atthay elpshay 
+organizeway andway acktray angeschay otay ilesfay overway imetay
+ (usuallyway exttay asedbay ilesfay, ikelay odecay), andway 
+elpshay ultiplemay usersway orkway onway ethay amesay ojectspray
+, ithoutway eppingstay onway eachway others'WAY oestay. Itgay 
+isway unray omfray ethay ommandcay inelay (ybay efaultday ethay
+ [Erminaltay](httpay://enway.ikipediaway.orgway/ikiway/
+Erminaltay_%28OSWAY_XAY%29) onway Acsmay andway ethay [Ommandcay
+ Omptpray](httpay://enway.ikipediaway.orgway/ikiway/Cmday.exeway
+) onway PCsay), usuallyway ybay unningray `itgay`, ollowedfay 
+ybay anotherway eykay ordway, enthay oftenway ollowedfay ybay 
+ariousvay optionsway.
 
-##What is github?
+##Atwhay isway ithubgay?
 
-Github is a website (you're on it now!) that provides a visual interface for git, as well as hosting the files that make up a project. *One* version of these files is hosted on github servers (called the *remote* version), but in almost every case there are many other versions on various other computers. For example, on my computer at work I have a version of these files, and another version on my computer at home. When you follow these tutorials, you'll have your own version(s). As we work on the files, at various times we will sync them up with the remote version that is on github, by **pushing** the changes we make to github and **pulling** down the changes other users make to the remote version.
+Ithubgay isway away ebsiteway (ou'reyay onway itway ownay!) 
+atthay ovidespray away isualvay interfaceway orfay itgay, asway 
+ellway asway ostinghay ethay ilesfay atthay akemay upway away 
+ojectpray. *Oneway* ersionvay ofway esethay ilesfay isway 
+ostedhay onway ithubgay erverssay (alledcay ethay *emoteray* 
+ersionvay), utbay inway almostway everyway asecay erethay areway
+ anymay otherway ersionsvay onway ariousvay otherway omputerscay
+. Orfay exampleway, onway ymay omputercay atway orkway Iway 
+avehay away ersionvay ofway esethay ilesfay, andway anotherway 
+ersionvay onway ymay omputercay atway omehay. Enwhay ouyay 
+ollowfay esethay utorialstay, ou'llyay avehay ouryay ownway 
+ersionvay(say). Asway eway orkway onway ethay ilesfay, atway 
+ariousvay imestay eway illway yncsay emthay upway ithway ethay 
+emoteray ersionvay atthay isway onway ithubgay, ybay **ushingpay
+** ethay angeschay eway akemay otay ithubgay andway **ullingpay
+** ownday ethay angeschay otherway usersway akemay otay ethay 
+emoteray ersionvay.
 
-I go over a few nice github features in [another document](working.md), but most of what we'll talk about is specific to git, not github. Almost all of the functions and commands we talk about are still valid when using services such as [bitbucket](https://bitbucket.org/) or [gitlab](https://about.gitlab.com/).
+Iway ogay overway away ewfay icenay ithubgay eaturesfay inway [
+anotherway ocumentday](orkingway.mday), utbay ostmay ofway 
+atwhay e'llway alktay aboutway isway ecificspay otay itgay, 
+otnay ithubgay. Almostway allway ofway ethay unctionsfay andway 
+ommandscay eway alktay aboutway areway illstay alidvay enwhay 
+usingway ervicessay uchsay asway [itbucketbay](httpsay://
+itbucketbay.orgway/) orway [itlabgay](httpsay://aboutway.
+itlabgay.omcay/).
 
-Many [open-source software projects](http://en.wikipedia.org/wiki/Free_and_open-source_software) are hosted on github (or bitbucket and other git hosting services). Personally, I am a passionate proponent for open-source software, working in the open, and the open data movement. I'd be happy to chat more about the whys and the hows of open-source development, and [many](https://github.com/18F/open-source-policy/blob/master/policy.md) [other](http://www.gnu.org/gnu/manifesto.html) [folks](https://okfn.org/opendata/why-open-data/) have written more eloquently and thorougly than I ever could.
+Anymay [openway-ourcesay oftwaresay ojectspray](httpay://enway.
+ikipediaway.orgway/ikiway/Eefray_andway_openway-ourcesay_
+oftwaresay) areway ostedhay onway ithubgay (orway itbucketbay 
+andway otherway itgay ostinghay ervicessay). Ersonallypay, Iway 
+amway away assionatepay oponentpray orfay openway-ourcesay 
+oftwaresay, orkingway inway ethay openway, andway ethay openway 
+ataday ovementmay. I'dway ebay appyhay otay atchay oremay 
+aboutway ethay yswhay andway ethay owshay ofway openway-ourcesay
+ evelopmentday, andway [anymay](httpsay://ithubgay.omcay/18FAY/
+openway-ourcesay-olicypay/obblay/astermay/olicypay.mday) [
+otherway](httpay://wwway.ugnay.orgway/ugnay/anifestomay.htmlay
+) [olksfay](httpsay://okfnway.orgway/opendataway/ywhay-openway-
+ataday/) avehay ittenwray oremay eloquentlyway andway 
+orouglythay anthay Iway everway ouldcay.
 
-Most software developers write their code using git, sometimes in public, sometimes in private (charging for private hosting is one way github makes money). The more you work with git, the more invaluale it will become to you.
+Ostmay oftwaresay evelopersday itewray eirthay odecay usingway 
+itgay, ometimessay inway ublicpay, ometimessay inway ivatepray (
+argingchay orfay ivatepray ostinghay isway oneway ayway ithubgay
+ akesmay oneymay). Ethay oremay ouyay orkway ithway itgay, ethay
+ oremay invalualeway itway illway ecomebay otay ouyay.
 
-##A glossary of terms
+##Away ossaryglay ofway ermstay
 
-Github has a [similar glossary](https://help.github.com/articles/github-glossary/) online, but here's a stripped down version of just the terms I use in this tutorial
+Ithubgay ashay away [imilarsay ossaryglay](httpsay://elphay.
+ithubgay.omcay/articlesway/ithubgay-ossaryglay/) onlineway, 
+utbay ere'shay away ippedstray ownday ersionvay ofway ustjay 
+ethay ermstay Iway useway inway isthay utorialtay
 
-##Git terms
+##Itgay ermstay
 
-- **branch:** A separate version of a repository, where user(s) can work without making changes to the main branch (called master). Often, after finishing work in a branch, user(s) will *merge* the branch back with master.
+- **anchbray:** Away eparatesay ersionvay ofway away 
+epositoryray, erewhay userway(say) ancay orkway ithoutway 
+akingmay angeschay otay ethay ainmay anchbray (alledcay astermay
+). Oftenway, afterway inishingfay orkway inway away anchbray, 
+userway(say) illway *ergemay* ethay anchbray ackbay ithway 
+astermay.
 
-- **clone:** The local version of a given repository on a given user's local computer. You can work on a clone from anywhere, even if you're offline.
+- **oneclay:** Ethay ocallay ersionvay ofway away ivengay 
+epositoryray onway away ivengay user'sway ocallay omputercay. 
+Ouyay ancay orkway onway away oneclay omfray anywhereway, 
+evenway ifway ou'reyay offlineway.
 
-- **commit:** Instead of saving files, you commit them to git. When you've made changes to one or multiple files, all those changes are stored in one commit (it's a verb and a noun). The commit has a unique id, and is described by a **commit message** which sums up the changes.
+- **ommitcay:** Insteadway ofway avingsay ilesfay, ouyay 
+ommitcay emthay otay itgay. Enwhay ou'veyay ademay angeschay 
+otay oneway orway ultiplemay ilesfay, allway osethay angeschay 
+areway oredstay inway oneway ommitcay (it'sway away erbvay 
+andway away ounnay). Ethay ommitcay ashay away uniqueway idway, 
+andway isway escribedday ybay away **ommitcay essagemay** 
+ichwhay umssay upway ethay angeschay.
 
-- **merge:** In some cases, instead of **pushing** straight to the remote repository, you will **merge** changes into the repository. Sometimes this is because you were working on a separate **branch** that needs to be merged, sometimes this will be because you encounter a **merge conflict**, which is when your changes and changes another user made contradict each other.
+- **ergemay:** Inway omesay asescay, insteadway ofway **
+ushingpay** aightstray otay ethay emoteray epositoryray, ouyay 
+illway **ergemay** angeschay intoway ethay epositoryray. 
+Ometimessay isthay isway ecausebay ouyay ereway orkingway onway 
+away eparatesay **anchbray** atthay eedsnay otay ebay ergedmay, 
+ometimessay isthay illway ebay ecausebay ouyay encounterway away
+ **ergemay onflictcay**, ichwhay isway enwhay ouryay angeschay 
+andway angeschay anotherway userway ademay ontradictcay eachway 
+otherway.
 
-- **pull:** When you retrieve the changes made to the remote repository from other clones.
+- **ullpay:** Enwhay ouyay etrieveray ethay angeschay ademay 
+otay ethay emoteray epositoryray omfray otherway onesclay.
 
-- **push:** When you save the commits made on your local clone to the remote repository.
+- **ushpay:** Enwhay ouyay avesay ethay ommitscay ademay onway 
+ouryay ocallay oneclay otay ethay emoteray epositoryray.
 
-- **remote:** The version of a repository that is hosted on a server, in our case on Github.com.
+- **emoteray:** Ethay ersionvay ofway away epositoryray atthay 
+isway ostedhay onway away erversay, inway ourway asecay onway 
+Ithubgay.omcay.
 
-##Github terms
+##Ithubgay ermstay
 
-- **collaborator:** The people who can directly push to a given repository. At Urban, everyone on this team has been added as a collaborator. Github also makes it possible to push code to projects that you're not a collaborator on (as long as that push is aproved by a collaborator), which is awesome but outside the scope of this tutorial. If you're interested, check out [this article](https://help.github.com/articles/using-pull-requests/) on github.com about contributing to repositories when you're not a collaborator.
+- **ollaboratorcay:** Ethay eoplepay owhay ancay irectlyday 
+ushpay otay away ivengay epositoryray. Atway Urbanway, 
+everyoneway onway isthay eamtay ashay eenbay addedway asway away
+ ollaboratorcay. Ithubgay alsoway akesmay itway ossiblepay otay 
+ushpay odecay otay ojectspray atthay ou'reyay otnay away 
+ollaboratorcay onway (asway onglay asway atthay ushpay isway 
+aprovedway ybay away ollaboratorcay), ichwhay isway awesomeway 
+utbay outsideway ethay opescay ofway isthay utorialtay. Ifway 
+ou'reyay interestedway, eckchay outway [isthay articleway](
+httpsay://elphay.ithubgay.omcay/articlesway/usingway-ullpay-
+equestsray/) onway ithubgay.omcay aboutway ontributingcay otay 
+epositoriesray enwhay ou'reyay otnay away ollaboratorcay.
 
-- **issue:** A suggestion made on github.com to improve a repository, fix a bug, clarify an explanation, etc. Anyone who can view a repository can open an issue, and the collaborators on that repository moderate the issues (for example, **closing** an issue means it has been solved).
+- **issueway:** Away uggestionsay ademay onway ithubgay.omcay 
+otay improveway away epositoryray, ixfay away ugbay, arifyclay 
+anway explanationway, etcway. Anyoneway owhay ancay iewvay away 
+epositoryray ancay openway anway issueway, andway ethay 
+ollaboratorscay onway atthay epositoryray oderatemay ethay 
+issuesway (orfay exampleway, **osingclay** anway issueway 
+eansmay itway ashay eenbay olvedsay).
 
-- **repository:** Also called a **repo**. A project on github, made up of multiple files and folders. For example, this repository is called git-tutorial
+- **epositoryray:** Alsoway alledcay away **eporay**. Away 
+ojectpray onway ithubgay, ademay upway ofway ultiplemay ilesfay 
+andway oldersfay. Orfay exampleway, isthay epositoryray isway 
+alledcay itgay-utorialtay
 
 
-##Other terms
+##Otherway ermstay
 
-- **command line flag:** A way to specify certain options when running commands from the Terminal. Often they look like `command_name -x` or `command_name --option` (note single letter flags are preceded by one dash, longer flags by two dashes)
+- **ommandcay inelay agflay:** Away ayway otay ecifyspay 
+ertaincay optionsway enwhay unningray ommandscay omfray ethay 
+Erminaltay. Oftenway eythay ooklay ikelay `ommandcay_amenay -xay
+` orway `ommandcay_amenay --optionway` (otenay inglesay etterlay
+ agsflay areway ecededpray ybay oneway ashday, ongerlay agsflay 
+ybay otway ashesday)
 
-- **environment variable:** A variable, often given a value in your **.bash_profile** file, that can be accessed from any prompt in your Command Line Interface (e.g. the Terminal).
+- **environmentway ariablevay:** Away ariablevay, oftenway 
+ivengay away aluevay inway ouryay **.ashbay_ofilepray** ilefay, 
+atthay ancay ebay accessedway omfray anyway omptpray inway 
+ouryay Ommandcay Inelay Interfaceway (eway.gay. ethay Erminaltay).
