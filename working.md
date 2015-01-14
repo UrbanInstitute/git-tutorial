@@ -120,6 +120,12 @@ Sometimes, you might want to work on a separate version of a project, and make l
 - Often, if you're working on new feature for a project, you want to be able to work on that new feature without stepping on the toes of other users. Say, for example, you were updating all of the Urban styles to fit a new styleguide. You could make a `new-styleguide` branch, and work on that, but while you were working, other team members could continue pushing to the master branch, without having to use your half-finished wonky styles.
 - Down the road, Urban graphics or features might be directly linked to a git repo (i.e. the live version of something on our site could live as a cloned repo on one of our servers). If/when that's the case, the best practice is to **never** push directly to master. Instead, we could push changes to a branch called "staging" or something similar. On a separate server (not the one that hosts the live version), we could have a git repo that is a clone of the staging branch. After internally viewing the staging version, we would then merge the staging branch with the master branch.
 
+Ok, so let's get branching! In the examples below, Urban has just changed leadership, and our new president, Arahsay Artellway, who wants us convert all our documentation to pig latin. I decide to do the translation on a separate branch, so that while I'm working, people can continue to view the master branch without seeing my partway done translations.
+1. To create a new branch, called "piglatin" the command is:
+```bash
+git checkout -b piglatin
+```
+
 
 
 
