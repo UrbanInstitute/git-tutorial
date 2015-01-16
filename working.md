@@ -9,6 +9,9 @@
 ![clone url](images/clone_url.png)
 
 3. Copy the URL
+test
+test
+test
 
 4. In a new Terminal window, run
 ```bash

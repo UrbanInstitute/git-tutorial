@@ -15,10 +15,6 @@ Git processes will sometimes automatically open up a file, which you'll need to 
 8. Finally, you want to set `sublime` as the default editor, instead of vim. In your still-open `.bash_profile` file, add another new line that says `export EDITOR='sublime -w'`, which stores the `sublime -w` command in an environment variable called `EDITOR`. Hooray! (*Another aside: `-w` is called a * *command line flag* *, which allows commands to be run with certain options or settings. `-w` means that the `sublime` command will wait to exit until you close whatever file was opened by the command, which is important for git to work properly*)
 9. Close the Terminal window.
 
-test
-test
-test
-
 ##Install git
 
 This one's a lot simpler!
