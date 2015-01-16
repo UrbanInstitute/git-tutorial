@@ -125,7 +125,13 @@ Ok, so let's get branching! In the examples below, Urban has just changed leader
 ```bash
 git checkout -b piglatin
 ```
+Next, let github know that you have create a new branch, by running
+```bash
+git push origin piglatin
+```
+This is a slightly different use of the "push" command from above, since you're not pushing changed files, you're pushing the fact that a new branch exists.
 
+2. Now, you can work on the branch. In this example, I [painstakingly translated](http://www.snowcrest.net/donnelly/piglatin.html) all these markdown files into piglatin
 
 
 
