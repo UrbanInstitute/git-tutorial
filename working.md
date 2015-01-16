@@ -134,8 +134,7 @@ This is a slightly different use of the "push" command from above, since you're 
 2. Now, you can work on the branch. In this example, I [painstakingly translated](http://www.snowcrest.net/donnelly/piglatin.html) all these markdown files into piglatin
 
 
-test test test
-
+master master master
 
 
 
