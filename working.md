@@ -103,7 +103,7 @@ and your changes will be saved to github! Hooray!
 - The more often you push changes, the less likely it is you'll encounter a merge conflict.
 
 Note:
-Sometimes, you might want to pull changes down from github, and totally overwrite whatever local work you've done that is different from the remote version on github. <strong color = "red">CAUTION:</strong> running this command is sort of the equivilant of closing a file and selecting "Don't Save," so make sure you really want to do it. Without adding, commiting, pushing, or pulling, run
+Sometimes, you might want to pull changes down from github, and totally overwrite whatever local work you've done that is different from the remote version on github. <strong><span style="color: red">CAUTION:</span></strong> running this command is sort of the equivilant of closing a file and selecting "Don't Save," so make sure you really want to do it. Without adding, commiting, pushing, or pulling, run
 ```bash
 git reset --hard
 ```
@@ -127,14 +127,15 @@ git checkout -b piglatin
 ```
 Next, let github know that you have create a new branch, by running
 ```bash
-git push origin piglatin
+git push --set-upstream origin piglatin
 ```
-This is a slightly different use of the "push" command from above, since you're not pushing changed files, you're pushing the fact that a new branch exists.
+This is a slightly different use of the "push" command from above, since you're not pushing changed files, you're pushing the fact that a new branch exists. The `--set-upstream` flag means that now, every time you type `git push` as you're working in the piglatin branch on your computer, the changes get pushed to the piglatin branch on github.
 
-2. Now, you can work on the branch. In this example, I [painstakingly translated](http://www.snowcrest.net/donnelly/piglatin.html) all these markdown files into piglatin
+2. Now, you can work on the branch. In this example, I [painstakingly translated](http://www.snowcrest.net/donnelly/piglatin.html) all these markdown files into piglatin. At first, these kind of changes might feel weird or alarming. It feels like you're deleting all your hard work! But remember, the two different branches store two entirely differnt versions of the repo. While you make changes in `piglatin`, the `master` branch stays the same.
 
+3. On a branch, the git workflow is exactly the same as described above. As you change files, `add`, `commit`, `pull`, and `push`.
 
-master master master
+4. If you want to switch 
 
 
 
