@@ -15,15 +15,9 @@ utorialtay))
 ethay oneclay URLWAY, itway ookslay ikelay isthay:
 ![oneclay urlway](imagesway/oneclay_urlway.pngay)
 
-<<<<<<< HEAD
 3. Opycay ethay URLWAY
-=======
-test
-test
-test
 
 ##Install git
->>>>>>> 6de3bf3c433b7d0ad8aab9e507b9c75fbf8ba442
 
 4. Inway away ewnay Erminaltay indowway, unray
 ```ashbay
