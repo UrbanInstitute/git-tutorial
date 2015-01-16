@@ -1,7 +1,7 @@
 #Our Git Workflow
 
 ##Cloning a Repository
-(I'm throwing around a lot of git specific terminology here, if you need a refresher you can check out [the overview](overview.md) or the [glossary](glossary.md))
+(I'm throwing around a lot of git specific terminology here, if you need a refresher you can check out [the overview](overview.md))
 
 1. To clone a repository onto your local computer, first head to the repo's home page (for this lesson, let's clone the [git-tutorial repo](https://github.com/UrbanInstitute/git-tutorial))
 
@@ -9,6 +9,13 @@
 ![clone url](images/clone_url.png)
 
 3. Copy the URL
+test
+test
+test
+test
+test
+test
+test
 
 4. In a new Terminal window, run
 ```bash
@@ -135,63 +142,9 @@ This is a slightly different use of the "push" command from above, since you're 
 
 3. On a branch, the git workflow is exactly the same as described above. As you change files, `add`, `commit`, `pull`, and `push`.
 
-4. If you want to switch branches, you use the `checkout` command again, but without the `-b` flag (b stands for "branch" and is just used to create a *new* branch). It's <strong><span style="color: red">important to remember</span></strong> to commit and push your changes before switching to another branch. In some cases (and it's a bit complex to go into the specifics of which cases), not commiting and pushing can make you lose local changes (i.e. changes you've made on your own computer, but haven't yet synced up with github), when switching between branches. Once you've committed and pushed, run
-```bash
-git checkout piglatin
-```
-to switch to the piglatin branch, or
-```bash
-git checkout master
-```
-to switch back to the main branch.
+4. If you want to switch 
 
-5. Sometimes, you will want to combine two branches together. There are two variations on why and when you'd do this:
 
-####Merging from master into a branch
-
-Sometimes, you'll want to keep working on a new branch, but also pull in changes that other users have made to the master branch. Using the example from above, say you're on a branch called `new-styleguide`, where you're doing some major Urban CSS updates. As you're working, folks have been building a new feature over on the `master` branch. You want to pull that new feature into your branch, so you can see how your new styles fit with it.
-
-1. Make sure you're on the `new-styleguide` branch, or switch to it with
-```bash
-git checkout new-styleguide
-```
-
-2. Run
-```bash
-git pull origin master
-```
-This pulls changes *from* master *into* new-styleguide.
-
-3. This is called **merging** the two branches, and you might need to resolve differences that contradict each other (see below for this process).
-
-####Merging a branch into master
-So you've finished all your work updating the new styleguide on your branch. High five! If you want to update the master branch with all your changes, the process is just the reverse of above:
-1. Make sure you're on the `master` branch
-```bash
-git checkout master
-```
-
-2. Then pull in your changes
-```bash
-git pull new-styleguide
-```
-
-###Deleting a branch
-Finally, there are times you might want to delete a branch. Major branches, like `new-styleguide` or other big features, might be good to keep around. Lots of software products have branches for each new version (1.0, 2.0 etc), and looking back at those branches can often be helpful, to help diagnose bugs, or even let users roll back to old versions of the software. But little branches, for small fixes or updates, can sometimes be deleted. To delete a branch:
-1. Switch to a branch other than the one you want to delete using `git checkout`
-
-2. Running
-```bash
-git branch
-```
-will show you a list of all the branches on the project.
-
-3. Then, to delete a branch called `temporary-stuff`, for example
-```bash
-git branch -D `temporary-stuff`
-```
-
-##Resolving a merge conflict
 
 
 
