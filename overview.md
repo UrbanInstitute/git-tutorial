@@ -13,6 +13,11 @@ sublimerge test
 
 ##What is github?
 
+sublimerge test
+sublimerge test
+sublimerge test
+sublimerge test
+
 Github is a website (you're on it now!) that provides a visual interface for git, as well as hosting the files that make up a project. *One* version of these files is hosted on github servers (called the *remote* version), but in almost every case there are many other versions on various other computers (called *clones*). For example, on my computer at work I have a version of these files, and another version on my computer at home. When you follow these tutorials, you'll have your own version(s). As we work on the files, at various times we will sync them up with the remote version that is on github, by **pushing** the changes we make to github and **pulling** down the changes other users make to the remote version.
 
 I go over a few nice github features in [another document](working.md), but most of what we'll talk about is specific to git, not github. Almost all of the functions and commands we talk about are still valid when using services such as [bitbucket](https://bitbucket.org/) or [gitlab](https://about.gitlab.com/).
