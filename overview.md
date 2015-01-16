@@ -15,7 +15,7 @@ Erminaltay_%28OSWAY_XAY%29) onway Acsmay andway ethay [Ommandcay
 ybay anotherway eykay ordway, enthay oftenway ollowedfay ybay 
 ariousvay optionsway.
 
-##Atwhay isway ithubgay?
+
 
 Ithubgay isway away ebsiteway (ou'reyay onway itway ownay!) 
 atthay ovidespray away isualvay interfaceway orfay itgay, asway 
@@ -73,6 +73,7 @@ utbay ere'shay away ippedstray ownday ersionvay ofway ustjay
 ethay ermstay Iway useway inway isthay utorialtay
 
 ##Itgay ermstay
+
 
 - **anchbray:** Away eparatesay ersionvay ofway away 
 epositoryray, erewhay userway(say) ancay orkway ithoutway 
@@ -156,4 +157,5 @@ ybay otway ashesday)
 ivengay away aluevay inway ouryay **.ashbay_ofilepray** ilefay, 
 atthay ancay ebay accessedway omfray anyway omptpray inway 
 ouryay Ommandcay Inelay Interfaceway (eway.gay. ethay Erminaltay).
+
 
