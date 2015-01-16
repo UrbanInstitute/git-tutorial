@@ -2,18 +2,20 @@
 
 ##Atwhay isway itgay?
 
-Itgay isway away iecepay ofway oftwaresay atthay elpshay 
-organizeway andway acktray angeschay otay ilesfay overway imetay
- (usuallyway exttay asedbay ilesfay, ikelay odecay), andway 
-elpshay ultiplemay usersway orkway onway ethay amesay ojectspray
-, ithoutway eppingstay onway eachway others'WAY oestay. Itgay 
-isway unray omfray ethay ommandcay inelay (ybay efaultday ethay
- [Erminaltay](httpay://enway.ikipediaway.orgway/ikiway/
-Erminaltay_%28OSWAY_XAY%29) onway Acsmay andway ethay [Ommandcay
- Omptpray](httpay://enway.ikipediaway.orgway/ikiway/Cmday.exeway
-) onway PCsay), usuallyway ybay unningray `itgay`, ollowedfay 
-ybay anotherway eykay ordway, enthay oftenway ollowedfay ybay 
-ariousvay optionsway.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,6 +75,9 @@ utbay ere'shay away ippedstray ownday ersionvay ofway ustjay
 ethay ermstay Iway useway inway isthay utorialtay
 
 ##Itgay ermstay
+
+
+
 
 
 - **anchbray:** Away eparatesay ersionvay ofway away 
@@ -157,5 +162,6 @@ ybay otway ashesday)
 ivengay away aluevay inway ouryay **.ashbay_ofilepray** ilefay, 
 atthay ancay ebay accessedway omfray anyway omptpray inway 
 ouryay Ommandcay Inelay Interfaceway (eway.gay. ethay Erminaltay).
+
 
 
