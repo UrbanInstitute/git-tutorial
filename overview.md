@@ -30,3 +30,5 @@ Retreive changes other users have sent to the remote repo
 Send your changes to the remote repo
 
 There's a lot of terminology, you'll get used to it! I also put together a [glossary](glossary.md) of the terms in this tutorial, which you can refer back to.
+
+###NEXT: [Getting started](setup.md)

@@ -228,7 +228,7 @@ So, there's conflicting information in `styles.css`, as we've seen. Open the fil
 
 This is special syntax that git puts into your files to show you where merge conflicts exist. The syntax can be read like this:
 
-```css
+```bash
 this;
 code;
 is;

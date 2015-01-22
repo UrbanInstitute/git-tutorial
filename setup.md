@@ -38,3 +38,5 @@ And you're done!
 or
 
 [Access github via ssh instead of https, and use your ssh key instead of a password](https://help.github.com/articles/generating-ssh-keys/)
+
+###NEXT: [Working with git!](working.md)
