@@ -174,7 +174,7 @@ git checkout master
 
 2. Then pull in your changes
 ```bash
-git pull new-styleguide
+git pull origin new-styleguide
 ```
 
 ###Deleting a branch
