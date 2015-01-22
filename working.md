@@ -194,7 +194,75 @@ git branch -D `temporary-stuff`
 
 ##Resolving a merge conflict
 
+When you merge a branch &mdash; either merging changes another user made on a single branch or merging one branch into another &mdash; things will easy go smoothly or slightly less smoothly.
 
+###Merging with no conflicts
+
+If the files you merge don't conflict with each other, git does the merge automatically. When you run `git pull` or another command that causes the merge to take place, a text file will open up that looks like this (in this example, in opened in Sublime, see [the setup file](setup.md) for instructions on using Sublime as git's editor):
+
+![MERGE_MSG](images/MERGE_MSG.png)
+
+Close the file and you're done!
+
+###Merging with conflicts
+
+Ok, let's look at an example of code that would cause a merge conflict. Let's say this css file, called `styles.css`, is on the `master` branch:
+
+![master css](images/master.png)
+
+And, on the `new-styleguide` branch, the **same** css file looks like this:
+
+![branch css](images/branch.png)
+
+As you can see, the branch css has switched fonts from Helvetica to Lato. When you try to merge these two files together, git doesn't know which one is correct, i.e. they contain *conflicting* information. So you need to manually tell git which version is correct.
+
+When you try to `git pull` to merge these two files, you will get an error message. It could say a few different things, but in general might look like:
+```bash
+CONFLICT (content): Merge conflict in styles.css
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+So, there's conflicting information in `styles.css`, as we've seen. Open the file in a text editor (like Sublime) and you'll see this wacky looking business:
+
+![conflict](images/conflict.png)
+
+This is special syntax that git puts into your files to show you where merge conflicts exist. The syntax can be read like this:
+
+```css
+this;
+code;
+is;
+OK;
+<<<<<<< HEAD
+Version 1 of conflicting code
+=======
+Version 2 of conflicting code
+>>>>>>> an-id-number-for-this-merge-conflict
+this;
+code;
+is;
+ok;
+```
+
+Look back at the actual example above to make sure the syntax makes sense.
+
+To resolve this conflict:
+1. Choose which version of the code you want to keep. Say, for example, the font should be "Lato".
+2. Delete the incorrect line (`font: "Helvetica";`)
+3. Delete the conflict markers. I.e. delete the lines `<<<<<<< HEAD`, `=======`, and `>>>>>>> be283f461d967160c94c1d298e568aa458e1b529`
+4. Save the file.
+5. Now commit this file just like we've done above:
+```bash
+git add styles.css
+git commit -m "resolved merge conflict"
+git push
+```
+
+There are [tools out there](http://www.sublimerge.com/) that can make the merge process a little less painful, and if you need to merge a lot we can talk about how to use them. But for now, it's best that you understand exactly what's going on when a conflict arises, and how to fix it by hand.
+
+##That's it!
+
+You are now officially an amazing git wizard. Good work. I know it seems like a lot of weird workflows and crazy terminology right now, but believe me, once you get used to it, it becomes invaluable to your workflow. 2 years ago I didn't know a `commit` from a `pull`, but once I started using git every day, life because so much better. Good luck, and I'm here to help either in person (for Urban folks) or here on github, feel free to open an issue to chat.
 
 
 
