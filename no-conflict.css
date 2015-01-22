@@ -1,10 +1,14 @@
 body {
-	font: "Helvetica";
-	font-color: #c0ffee;
+	font: "Lato";
+	font-color: #dec0de;
 	font-style: bold;
 	background-color: #decade;
 }
 
 h1 {
 	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
