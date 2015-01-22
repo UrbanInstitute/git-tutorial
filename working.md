@@ -99,11 +99,12 @@ and your changes will be saved to github! Hooray!
 
 7. It's good practice to make lots of frequent commits, with descriptive messages, for a number of reasons:
 - Git makes it easy to rollback a project to the way it looked at the time of a certain commit. If you make lots of little commits, you can get make it easy to rollback a mistake or edit, without also erasing work you'd like to keep.
+
 - Looking at a well kept commit history, it's easy to see who worked on a project, when they worked, what they did, and why they did it. If something's broken, or you have a question, you can go to the commit history to help diagnose the problem, or figure out who to ask for help.
 - The more often you push changes, the less likely it is you'll encounter a merge conflict.
 
 Note:
-Sometimes, you might want to pull changes down from github, and totally overwrite whatever local work you've done that is different from the remote version on github. <strong><span style="color: red">CAUTION:</span></strong> running this command is sort of the equivilant of closing a file and selecting "Don't Save," so make sure you really want to do it. Without adding, commiting, pushing, or pulling, run
+Sometimes, you might want to pull changes down from github, and totally overwrite whatever local work you've done that is different from the remote version on github. <strong style="color: red"><span style="color: red">CAUTION:</span></strong> running this command is sort of the equivilant of closing a file and selecting "Don't Save," so make sure you really want to do it. Without adding, commiting, pushing, or pulling, run
 ```bash
 git reset --hard
 ```
@@ -135,7 +136,7 @@ This is a slightly different use of the "push" command from above, since you're 
 
 3. On a branch, the git workflow is exactly the same as described above. As you change files, `add`, `commit`, `pull`, and `push`.
 
-4. If you want to switch branches, you use the `checkout` command again, but without the `-b` flag (b stands for "branch" and is just used to create a *new* branch). It's <strong><span style="color: red">important to remember</span></strong> to commit and push your changes before switching to another branch. In some cases (and it's a bit complex to go into the specifics of which cases), not commiting and pushing can make you lose local changes (i.e. changes you've made on your own computer, but haven't yet synced up with github), when switching between branches. Once you've committed and pushed, run
+4. If you want to switch branches, you use the `checkout` command again, but without the `-b` flag (b stands for "branch" and is just used to create a *new* branch). It's <strong style="color: red">important to remember</strong> to commit and push your changes before switching to another branch. In some cases (and it's a bit complex to go into the specifics of which cases), not commiting and pushing can make you lose local changes (i.e. changes you've made on your own computer, but haven't yet synced up with github), when switching between branches. Once you've committed and pushed, run
 ```bash
 git checkout piglatin
 ```
@@ -192,6 +193,8 @@ git branch -D `temporary-stuff`
 ```
 
 ##Resolving a merge conflict
+
+
 
 
 
