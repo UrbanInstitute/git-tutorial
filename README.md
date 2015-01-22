@@ -18,3 +18,5 @@ Some of these instructions get pretty technical, but I tried to limit the tutori
 - [Git immersion](http://gitimmersion.com/) is a longer tutorial, with tons of information.
 - Once you're in the swing of things with git, you might want to print out [this git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) and put it on your wall. Way helpful.
 - Many more great tutorials (including those listed above) can be found in [this article](https://help.github.com/articles/good-resources-for-learning-git-and-github/) from the folks at github.com
+
+###FIRST UP: [An overview of git](overview.md)
