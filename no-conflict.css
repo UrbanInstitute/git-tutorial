@@ -4,3 +4,7 @@ body {
 	font-style: bold;
 	background-color: #decade;
 }
+
+h1 {
+	font-size: 2em;
+}
