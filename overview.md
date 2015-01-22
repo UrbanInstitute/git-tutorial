@@ -2,7 +2,9 @@
 
 ##What is git?
 
-Git is a piece of software that helps organize and track changes to files over time (usually text based files, like code), and helps multiple users work on the same projects, without stepping on each others' toes. Git is run from the command line (by default the [Terminal](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29) on Macs and the [Command Prompt](http://en.wikipedia.org/wiki/Cmd.exe) on PCs), usually by running `git`, followed by another key word, then often followed by various options.
+Git is a piece of TEST TEST TEST software that helps organize and track changes to files over time (usually text based files, like code), and helps multiple users work on the same projects, without stepping on each others' toes. Git is run from the command line (by default the [Terminal](http://en.wikipedia.org/wiki/Terminal_%28OS_X%29) on Macs and the [Command Prompt](http://en.wikipedia.org/wiki/Cmd.exe) on PCs), usually by running `git`, followed by another key word, then often followed by various options.
+
+sublimerge test
 
 ##What is github?
 
