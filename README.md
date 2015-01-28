@@ -1,4 +1,4 @@
-# git-tutorial
+# Git Tutorial
 
 An introduction to git, and a place to practice pushing code!
 
