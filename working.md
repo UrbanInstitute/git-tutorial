@@ -261,6 +261,8 @@ git push
 
 There are [tools out there](http://www.sublimerge.com/) that can make the merge process a little less painful, and if you need to merge a lot we can talk about how to use them. But for now, it's best that you understand exactly what's going on when a conflict arises, and how to fix it by hand.
 
+Note: it is possible to accidentally commit and push merge markers (`<<<<<<<`, `=======`, and `>>>>>>>). You can always delete the lines and re-push, but if you find yourself doing this, or want to make sure you never do, [bobgilmore](https://github.com/bobgilmore/githooks) has written some scripts to make sure you never push those markers, and [konklone](https://github.com/konklone/dontcommit) has a much lighter weight and simple solution.
+
 ##That's it!
 
 You are now officially an amazing git wizard. Good work. I know it seems like a lot of weird workflows and crazy terminology right now, but believe me, once you get used to it, it becomes invaluable to your workflow. 2 years ago I didn't know a `commit` from a `pull`, but once I started using git every day, life because so much better. Good luck, and I'm here to help either in person (for Urban folks) or here on github, feel free to open an issue to chat.
