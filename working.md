@@ -160,7 +160,7 @@ Sometimes, you'll want to keep working on a new branch, but also pull in changes
 
 2. Run
 	```bash
-	git pull origin master
+	git merge master
 	```
 	This pulls changes *from* master *into* new-styleguide.
 
@@ -175,7 +175,7 @@ So you've finished all your work updating the new styleguide on your branch. Hig
 
 2. Then pull in your changes
 	```bash
-	git pull origin new-styleguide
+	git merge new-styleguide
 	```
 
 ### Deleting a branch
