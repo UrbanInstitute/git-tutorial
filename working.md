@@ -1,6 +1,6 @@
-#Our Git Workflow
+# Our Git Workflow
 
-##Cloning a Repository
+## Cloning a Repository
 (I'm throwing around a lot of git specific terminology here, if you need a refresher you can check out [the overview](overview.md) or the [glossary](glossary.md))
 
 1. To clone a repository onto your local computer, first head to the repo's home page (for this lesson, let's clone the [git-tutorial repo](https://github.com/UrbanInstitute/git-tutorial))
@@ -18,7 +18,7 @@
 
 5. In the Terminal, to move into the folder you just cloned (which is automatically named "git-tutorial"), run ```cd git-tutorial```
 
-##Do some work!
+## Do some work!
 
 1. Create, delete, or edit some files or folders. If you find typos etc. in these tutorials, feel free to edit them, but I also made a folder called [workspace](workspace) where you can create and edit files. Maybe make CSS stylesheet, or write a list of instructions on how to make the best turkey sandwich ever. Whatever you want.
 
@@ -116,7 +116,7 @@ git pull
 and your local repo will sync up with the remote github repo, overwriting all your local changes.
 
 
-##Working on branches
+## Working on branches
 
 Sometimes, you might want to work on a separate version of a project, and make lots of frequent commits to the project (as you always should!), but you want the separate version to be isolated from the main version. The different versions of a git project are called **branches**, and the main version is always called the **master** branch. Every project has a master branch by default, but you can create as many new branches as you'd like. At any time, you can **merge** a branch back with master, pushing whatever changes you made in that branch to the master branch as well. You might want to branch a project for a number of reasons:
 - Often, if you're working on new feature for a project, you want to be able to work on that new feature without stepping on the toes of other users. Say, for example, you were updating all of the Urban styles to fit a new styleguide. You could make a `new-styleguide` branch, and work on that, but while you were working, other team members could continue pushing to the master branch, without having to use your half-finished wonky styles.
@@ -149,7 +149,7 @@ Ok, so let's get branching! In the examples below, Urban has just changed leader
 
 5. Sometimes, you will want to combine two branches together. There are two variations on why and when you'd do this:
 
-####Merging from master into a branch
+#### Merging from master into a branch
 
 Sometimes, you'll want to keep working on a new branch, but also pull in changes that other users have made to the master branch. Using the example from above, say you're on a branch called `new-styleguide`, where you're doing some major Urban CSS updates. As you're working, folks have been building a new feature over on the `master` branch. You want to pull that new feature into your branch, so you can see how your new styles fit with it.
 
@@ -166,7 +166,7 @@ Sometimes, you'll want to keep working on a new branch, but also pull in changes
 
 3. This is called **merging** the two branches, and you might need to resolve differences that contradict each other (see below for this process).
 
-####Merging a branch into master
+#### Merging a branch into master
 So you've finished all your work updating the new styleguide on your branch. High five! If you want to update the master branch with all your changes, the process is just the reverse of above:
 1. Make sure you're on the `master` branch
 	```bash
@@ -178,7 +178,7 @@ So you've finished all your work updating the new styleguide on your branch. Hig
 	git pull origin new-styleguide
 	```
 
-###Deleting a branch
+### Deleting a branch
 Finally, there are times you might want to delete a branch. Major branches, like `new-styleguide` or other big features, might be good to keep around. Lots of software products have branches for each new version (1.0, 2.0 etc), and looking back at those branches can often be helpful, to help diagnose bugs, or even let users roll back to old versions of the software. But little branches, for small fixes or updates, can sometimes be deleted. To delete a branch:
 1. Switch to a branch other than the one you want to delete using `git checkout`
 
@@ -193,11 +193,11 @@ Finally, there are times you might want to delete a branch. Major branches, like
 	git branch -D `temporary-stuff`
 	```
 
-##Resolving a merge conflict
+## Resolving a merge conflict
 
 When you merge a branch &mdash; either merging changes another user made on a single branch or merging one branch into another &mdash; things will easy go smoothly or slightly less smoothly.
 
-###Merging with no conflicts
+### Merging with no conflicts
 
 If the files you merge don't conflict with each other, git does the merge automatically. When you run `git pull` or another command that causes the merge to take place, a text file will open up that looks like this (in this example, in opened in Sublime, see [the setup file](setup.md) for instructions on using Sublime as git's editor):
 
@@ -205,7 +205,7 @@ If the files you merge don't conflict with each other, git does the merge automa
 
 Close the file and you're done!
 
-###Merging with conflicts
+### Merging with conflicts
 
 Ok, let's look at an example of code that would cause a merge conflict. Let's say this css file, called `styles.css`, is on the `master` branch:
 
