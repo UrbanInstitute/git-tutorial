@@ -1,8 +1,8 @@
-###A glossary of terms
+### A glossary of terms
 
 Github has a [similar glossary](https://help.github.com/articles/github-glossary/) online, but here's a stripped down version of just the terms I use in this tutorial
 
-###Git terms
+### Git terms
 
 - **branch:** A separate version of a repository, where user(s) can work without making changes to the main branch (called master). Often, after finishing work in a branch, user(s) will *merge* the branch back with master.
 
@@ -18,7 +18,7 @@ Github has a [similar glossary](https://help.github.com/articles/github-glossary
 
 - **remote:** The version of a repository that is hosted on a server, in our case on Github.com.
 
-###Github terms
+### Github terms
 
 - **collaborator:** The people who can directly push to a given repository. At Urban, everyone on this team has been added as a collaborator. Github also makes it possible to push code to projects that you're not a collaborator on (as long as that push is aproved by a collaborator), which is awesome but outside the scope of this tutorial. If you're interested, check out [this article](https://help.github.com/articles/using-pull-requests/) on github.com about contributing to repositories when you're not a collaborator.
 
@@ -27,7 +27,7 @@ Github has a [similar glossary](https://help.github.com/articles/github-glossary
 - **repository:** Also called a **repo**. A project on github, made up of multiple files and folders. For example, this repository is called git-tutorial
 
 
-###Other terms
+### Other terms
 
 - **command line flag:** A way to specify certain options when running commands from the Terminal. Often they look like `command_name -x` or `command_name --option` (note single letter flags are preceded by one dash, longer flags by two dashes)
 
