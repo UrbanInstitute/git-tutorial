@@ -3,23 +3,23 @@
 
 ## The command line
 
-###Installation
+### Installation
 
 The best way to work with git and github is via the **command line**, a way to interact with your computer using text-only commands, instead of point-and-click. To work with git, you'll need a command line program that let's you use a certain syntax of commands, called "unix". You might also see these programs referred to as "bash" or "bash shells".
 
 On a Mac, the command line can be accessed via the built-in Terminal program, or I prefer the [iTerm2](https://www.iterm2.com/) program which has some added functionality. On a PC, we suggest installing the [ConEmu](https://conemu.github.io/) program which gives you access to a variety of bash shells.
 
-###Basic commands
+### Basic commands
 There's a wide variety of built-in commands you can use on the command line. Then you can install various programs (like `git`!) to add more commands. In these tutorials, you'll be asked to run a variety of commands (both built-in and from `git`), but there are two main commands that will help you navigate the bash environment.
 
-####cd
+#### cd
 Whenever you open a bash shell, each window corresponds to a given location in your file system (just like an Explorer window on a PC or a Finder window on a Mac). The `cd` command stands for "change directory", so it's a way to move between different folders on the command line.
 
 Normally you'd type `cd MyFolderName` then hit enter to move to a different folder (in general, you always hit enter to run a given command). There's also a special command, `cd ..` which moves you one level up in the directory structure (to the parent folder of your current location)
 
 A tip: if you start typing a folder name (e.g. `cd MyFo`) then hit the `tab` key, your bash shell should autocomplete the folder name for you.
 
-####ls
+#### ls
 The `ls` or "list" command lists the files and folders in your current location. It's a good way to get your bearings, and to figure out which folder you need to `cd` into.
 
 
