@@ -52,7 +52,7 @@ On newer Mac's (OS 10.9 or newer), just try to run `git` from the command line. 
 
 1. Make an account at [github.com](https://github.com/).
 2. Associate your e-mail address with your github account.
-	- You can find a tutorial [here](https://help.github.com/articles/setting-your-email-in-git/), but the only steps you should need are below
+	- You can find a tutorial [here](https://help.github.com/articles/setting-your-commit-email-address-in-git/), but the only steps you should need are below
 	1. Run this command `git-config --global user.email "your_name@urban.org"` with "your_name" replaced with...your name. You could also use your personal e-mail address if you like.
 	2. From github.com, add the e-mail address you used to your github account, you can find [instructions here](https://help.github.com/articles/adding-an-email-address-to-your-github-account/).
 
@@ -60,7 +60,7 @@ And you're done!
 
 **Optional:** Down the road, you might find yourself annoyed entering your github username and password in the Terminal when you push code (if you don't know what I'm talking about, you will soon!) If so, there are two solutions, I'll just link to the excellent github tutorials instead of listing the steps:
 
-[Store your username and password in your Mac's keychain](https://help.github.com/articles/caching-your-github-password-in-git/)
+[Store your username and password in your Mac's keychain or wincred on a PC](https://help.github.com/articles/caching-your-github-password-in-git/)
 
 or
 
