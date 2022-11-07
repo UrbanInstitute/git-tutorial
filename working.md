@@ -5,10 +5,9 @@
 
 1. To clone a repository onto your local computer, first head to the repo's home page (for this lesson, let's clone the [git-tutorial repo](https://github.com/UrbanInstitute/git-tutorial))
 
-2. On the right hand side of the page, find the clone URL, it looks like this:
-![clone url](images/clone_url.png)
+2. On the right hand side of the page, find the green CODE button.
 
-3. Copy the URL
+3. Copy the URL under the SSH tab. For this repo, it's "git@github.com:UrbanInstitute/git-tutorial.git". You will be prompted for your passphrase.
 
 4. In a new Terminal window, run
 	```bash

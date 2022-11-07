@@ -55,15 +55,9 @@ On newer Mac's (OS 10.9 or newer), just try to run `git` from the command line. 
 	- You can find a tutorial [here](https://help.github.com/articles/setting-your-commit-email-address-in-git/), but the only steps you should need are below
 	1. Run this command `git-config --global user.email "your_name@urban.org"` with "your_name" replaced with...your name. You could also use your personal e-mail address if you like.
 	2. From github.com, add the e-mail address you used to your github account, you can find [instructions here](https://help.github.com/articles/adding-an-email-address-to-your-github-account/).
+0
+3. In order to get added to the Urban Institute's two Github organizations, you'll need to notify the Slack channel #github or use the [request form here](https://app.smartsheet.com/b/form/9f0c5ba330dd4b73980fe5a6e17216b5). You will be added to https://github.com/urbaninstitute, the public-facing org, and https://github.com/ui-research, where we put private repos.
 
-And you're done!
-
-**Optional:** Down the road, you might find yourself annoyed entering your github username and password in the Terminal when you push code (if you don't know what I'm talking about, you will soon!) If so, there are two solutions, I'll just link to the excellent github tutorials instead of listing the steps:
-
-[Store your username and password in your Mac's keychain or wincred on a PC](https://help.github.com/articles/caching-your-github-password-in-git/)
-
-or
-
-[Access github via ssh instead of https, and use your ssh key instead of a password](https://help.github.com/articles/generating-ssh-keys/)
+4. You'll need to set up SSH access to push changes to these organizations. Github has a great tutorial for setting up [access via ssh instead of https, and use your ssh key instead of a password](https://help.github.com/articles/generating-ssh-keys/)
 
 ### NEXT: [Working with git!](working.md)
